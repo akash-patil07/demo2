@@ -1,0 +1,10 @@
+package com.crts.app.loan.main.repository;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.crts.app.loan.main.model.State;
+@Repository
+public interface HomeRepository extends CrudRepository<State,Integer>{
+
+}

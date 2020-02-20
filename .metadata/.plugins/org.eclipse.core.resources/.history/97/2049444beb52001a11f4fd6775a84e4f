@@ -1,0 +1,25 @@
+package com.crts.app.pbl.main.serviceimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.crts.app.pbl.main.model.State;
+import com.crts.app.pbl.main.repository.HomeRepository;
+import com.crts.app.pbl.main.serviceint.ServiceInterface;
+
+public class ServiceImplementation implements ServiceInterface {
+	@Autowired
+	HomeRepository hr;
+
+	@Override
+	public void registration(State s) {
+		
+
+	}
+
+	@Override
+	public void registration() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

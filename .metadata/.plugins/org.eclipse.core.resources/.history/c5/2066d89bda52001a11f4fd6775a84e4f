@@ -1,0 +1,10 @@
+package com.crts.app.pbl.main.model;
+
+public class Status {
+private int statusId;
+private String statusName;
+private String statusCode;
+private String stateRemark;
+
+
+}

@@ -1,0 +1,6 @@
+package com.crts.app.pbl.main.model;
+
+public class BankDetails {
+private int bId;
+priavte 
+}

@@ -1,0 +1,7 @@
+package com.crts.app.pbl.main.model;
+
+public class Role {
+private int roleId;
+private String roleName;
+private int roleStatusCode;
+}

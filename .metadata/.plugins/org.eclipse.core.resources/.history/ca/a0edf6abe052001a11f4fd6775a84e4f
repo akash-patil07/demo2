@@ -1,0 +1,7 @@
+package com.crts.app.pbl.main.model;
+
+public class BranchType {
+private int id;
+private String typeName;
+private String typeCode;
+}

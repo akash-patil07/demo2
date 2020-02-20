@@ -1,0 +1,20 @@
+package com.webcore.app.loan.main.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.crts.app.loan.main.repository.HomeRepository;
+import com.webcore.app.loan.main.model.City;
+import com.webcore.app.loan.main.model.State;
+
+@Service
+public class ServiceImplementation implements ServiceInterface {
+	@Autowired
+	HomeRepository hr;
+
+	public void registration(City c) {
+		hr.save(c);
+
+	}
+
+}

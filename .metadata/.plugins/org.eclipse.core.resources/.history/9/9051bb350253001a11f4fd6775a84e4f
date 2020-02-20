@@ -1,0 +1,7 @@
+package com.crts.app.loan.main.service;
+
+import com.crts.app.loan.main.model.State;
+
+public interface ServiceInterface {
+void registration(State s);
+}

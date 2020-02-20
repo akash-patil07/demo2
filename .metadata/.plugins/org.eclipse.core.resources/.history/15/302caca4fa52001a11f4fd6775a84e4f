@@ -1,0 +1,5 @@
+package com.crts.app.loan.main.model;
+
+public class City {
+private State state;
+}

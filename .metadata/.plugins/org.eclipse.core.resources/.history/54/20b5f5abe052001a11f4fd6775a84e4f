@@ -1,0 +1,14 @@
+package com.crts.app.pbl.main.model;
+
+public class Branch {
+private int branchId;
+private String branchName;
+private String branchType;
+private String ifscCode;
+private String micrCode;
+private String branchContactNo;
+private String branchEmailId;
+private Address branchAddress;
+private int status;
+
+}

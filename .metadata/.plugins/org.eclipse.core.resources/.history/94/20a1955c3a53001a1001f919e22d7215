@@ -1,0 +1,32 @@
+package com.webcore.app.loan.main.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.webcore.app.loan.main.model.City;
+import com.webcore.app.loan.main.model.State;
+import com.webcore.app.loan.main.service.ServiceInterface;
+
+@RestController
+public class HomeController {
+	@Autowired
+	ServiceInterface sr;
+
+	@PostMapping("/regst")
+	public City city(@RequestBody City c) {
+		/*
+		 * System.out.println(s.getStateId()); System.out.println(s.getStateCode());
+		 * System.out.println(s.getStateName());
+		 * System.out.println(s.getCountry().getCountryCode());
+		 * System.out.println(s.getCountry().getCountryId());
+		 * System.out.println(s.getCountry().getCountryName());
+		 */
+
+		sr.registration(c);
+		return c;
+	}
+
+}

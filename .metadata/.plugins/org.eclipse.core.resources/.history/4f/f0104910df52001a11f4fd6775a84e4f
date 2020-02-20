@@ -1,0 +1,19 @@
+package com.crts.app.pbl.main.model;
+
+public class Test {
+public static void main(String[] args) {
+	State s=new State();
+	      s.setStateId(1);
+	      s.setStateName("maharashtra");
+	      s.setStateCode("02582");
+	     
+	 Country c=new Country();
+	         c.setCountryId(2);
+	         c.setCountryCode("In");
+	         c.setCountryName("akash");
+	         
+	         s.setCountry(c);
+	         
+	         
+}
+}

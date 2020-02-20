@@ -1,0 +1,8 @@
+package com.crts.app.pbl.main.model;
+
+public class Country {
+private int countryId;
+private String countryName;
+private String countryCode;
+
+}

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\LoanProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2865279708.index
+\MavenBootMvc\src\main\resources
+D:\LoanProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\209475040.index
+\MavenBootMvc\src\main\resources

@@ -1,0 +1,8 @@
+package com.crts.app.loan.main.service;
+
+import com.webcore.app.loan.main.model.City;
+import com.webcore.app.loan.main.model.State;
+
+public interface ServiceInterface {
+public	void registration(City c);
+}

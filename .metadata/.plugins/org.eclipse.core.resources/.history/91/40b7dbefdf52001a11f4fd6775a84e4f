@@ -1,0 +1,14 @@
+package com.crts.app.pbl.main;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+@EnableJpaRepositories
+@SpringBootApplication
+public class LoanProjectClient1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LoanProjectClient1Application.class, args);
+	}
+
+}

@@ -1,0 +1,8 @@
+server.port=8082
+spring.application.name=zuul
+zuul.routes.getadd.service-id=eureka-add
+
+eureka.client.service-url.defaultZone=http://localhost:8081/eureka
+#zuul.routes.getadd.url=http://localhost:8082
+
+

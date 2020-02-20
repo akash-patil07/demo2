@@ -1,0 +1,7 @@
+package com.crts.app.pbl.main.service;
+
+import com.crts.app.pbl.main.model.State;
+
+public interface ServiceInterface {
+void registration(State s);
+}

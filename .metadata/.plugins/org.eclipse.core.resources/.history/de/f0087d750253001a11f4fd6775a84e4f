@@ -1,0 +1,22 @@
+package com.crts.app.loan.main.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.crts.app.loan.main.model.City;
+import com.crts.app.loan.main.model.State;
+import com.crts.app.loan.main.repository.HomeRepository;
+@Service
+public class ServiceImplementation implements ServiceInterface {
+	@Autowired
+	HomeRepository hr;
+
+	@Override
+	public void registration(City c) {
+		hr.save(c);
+
+	}
+
+	
+
+}

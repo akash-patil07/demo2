@@ -1,0 +1,7 @@
+package com.crts.app.pbl.main.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface HomeRepository extends CrudRepository<State,Integer>{
+
+}
